@@ -1,0 +1,34 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.Cartão {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.Cartão__Conteúdo {
+    cursor: pointer;
+}
+
+.Cartão_Conteúdo_Pergunta {
+    font-weight: bold;
+}
+
+.Cartão_Conteúdo_Resposta {
+    display: none;
+    margin-top: 10px;
+    color: #555;
+}
